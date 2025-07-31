@@ -1,0 +1,140 @@
+/* Medium */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .width30 {
+    width: 30%;
+    float: left;
+  }
+  .width70 {
+    width: 70%;
+    float: right;
+  }
+  .nav-links ul li {
+    display: inline-block;
+    padding: 6px;
+  }
+  .portfolio-imgs .img {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+  }
+  .card {
+    width: 90%;
+  }
+  .card-img img {
+    position: absolute;
+    z-index: 1;
+  }
+  .width50 {
+    width: 50%;
+    float: left;
+  }
+  .width25 {
+    width: 25%;
+    float: left;
+  }
+  .width20 {
+    width: 20%;
+    float: left;
+  }
+  .width80 {
+    width: 80%;
+    float: right;
+  }
+  .width33 {
+    width: 33.33%;
+    padding: 20px;
+    margin: 50px auto;
+    float: left;
+  }
+  .width31 {
+    width: 33.33%;
+    margin: auto;
+  }
+  .clr {
+    clear: both;
+  }
+}
+
+/* Large */
+@media only screen and (min-width: 992px) {
+  .width333 {
+    width: 33.33%;
+    margin: auto;
+  }
+  .portfolio-imgs .img {
+    width: 33.33%;
+    margin: auto;
+    padding: 20px;
+  }
+  .nav-links ul li {
+    padding: 8px;
+  }
+  .width40 {
+    width: 50%;
+    float: left;
+  }
+  .width60 {
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+  }
+  .about-img {
+    border: 10px solid rgb(85, 85, 85);
+  }
+  .about-img img {
+    transform: translate(5%, 5%);
+  }
+
+  .width255 {
+    width: 25%;
+    margin: auto;
+  }
+  .about-content ul li {
+    width: 40%;
+    margin: auto;
+    display: inline-block;
+  }
+
+  .width400 {
+    width: 40%;
+    margin: auto;
+  }
+  .width600 {
+    width: 60%;
+    margin: auto;
+    padding-left: 20px;
+  }
+
+  .our-services-content {
+    padding: 20px;
+  }
+
+  .feedback .card {
+    width: 60%;
+    padding: 40px 0;
+  }
+  .card::before {
+    content: "";
+    transform: translate(-200%, -80%) rotate(-45deg);
+  }
+  .feedback .card-img img {
+    width: 15%;
+    position: absolute;
+    transform: translate(-50%, -25%);
+  }
+
+  .clr {
+    clear: both;
+  }
+}
+
+/* XLarge */
+/* @media only screen and (min-width: 1200px) {
+
+     
+   
+} */
